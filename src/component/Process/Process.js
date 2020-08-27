@@ -8,7 +8,7 @@ const Process = (props) => {
         <div className="process">
                 <h2 className="heading">{name}</h2>
                 <br/>
-                <h3>Title: {title}</h3>
+                <h4>Title: {title}</h4>
                 <p><small>Price:{price}</small></p>
                 <button className="main-button" onClick={() => handleAddCourse(props.course)}>Enroll Now</button>
         </div>
